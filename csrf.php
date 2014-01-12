@@ -36,12 +36,12 @@ class CSRF_Library
 		/**
 		 * Fetch the session library
 		 */
-		$this->session = Registry::get("Libraryloader")->session;
+		$this->session = Registry::get("LibraryLoader")->session;
 
 		/**
 		 * Fetch the session library
 		 */
-		$this->bcrypt = Registry::get("Libraryloader")->bcrypt;
+		$this->bcrypt = Registry::get("LibraryLoader")->bcrypt;
 
 		/**
 		 * Fetch the session library
